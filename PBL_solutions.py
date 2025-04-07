@@ -85,14 +85,14 @@ st.write(f"### Your Score: {score}/20")
 if score < 12:
     st.warning("You’re on your sustainability journey! Start here:")
     st.page_link(
-        "https://project144.github.io/pbl-sustainability-awareness/awareness%20and%20practices%20with.html",
+        "https://project144.github.io/pbl-sustainability-awareness/awareness",
         label="Explore Sustainability 🌱",
         icon="🌱"
     )
 else:
     st.success("You’re doing great! Let’s take it further:")
     st.page_link(
-        "https://project144.github.io/pbl-sustainability-awareness/action.html",
+        "https://project144.github.io/pbl-sustainability-awareness/practices",
         label="Take Sustainable Action 🚀",
         icon="🚀"
     )
